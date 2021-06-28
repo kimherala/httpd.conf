@@ -1,0 +1,31 @@
+:root {
+    font-size: 16px;
+    --main-bg-color: #000;
+    --main-fg-color: #fff;
+    --main-text-color: #fff;
+    
+    --p-size: 0.9rem;
+    --h1-size: 1.2rem; 
+}
+  
+@font-face {
+    font-family: CourierPrime;
+    font-weight: normal;
+    src: url("/assets/fonts/CourierPrime-Regular.ttf");
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: 0;
+}
+
+p, a, h1 {
+    font-family: CourierPrime;
+    font-weight: normal;
+    color: var(--main-text-color);
+    margin: 0;
+}
+
+p {
+    font-size: var(--p-size);
+}
